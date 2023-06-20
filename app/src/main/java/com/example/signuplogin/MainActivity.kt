@@ -11,7 +11,7 @@ class RegistrationActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityRegistrationBinding.inflate(layoutInflater)
 
-        binding.registerButton.setOnClickListener {
+        binding.signupButton.setOnClickListener {
             val username = binding.username.toString()
             val phone = binding.phoneNumber.toString()
             val email = binding.email.toString()
